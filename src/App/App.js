@@ -17,8 +17,8 @@ export default function App() {
         <Profile user={user} />
       </SectionTask>
       <SectionTask title={"Домашнее задание №2"}>
-        <Statistics title={"Upload stats"} stats={statisticalData} />;
-        <Statistics stats={statisticalData} />;
+        <Statistics title={"Upload stats"} stats={statisticalData} />
+        <Statistics stats={statisticalData} />
       </SectionTask>
       <SectionTask title={"Домашнее задание №3"}>
         <Friendlist friends={friends} />
@@ -31,10 +31,4 @@ export default function App() {
 }
 
 
-// function makeRandomColor() {
-//   var c = '';
-//   while (c.length < 6) {
-//     c += (Math.random()).toString(16).substr(-6).substr(-1)
-//   }
-//   return '#' + c;
-// }
+

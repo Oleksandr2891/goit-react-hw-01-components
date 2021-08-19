@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    margin: 5px auto;
+}

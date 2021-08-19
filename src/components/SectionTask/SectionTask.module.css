@@ -1,0 +1,17 @@
+.wrapper {
+    display: block;
+    border: 1px solid rgb(16, 6, 161);
+    background-color: silver;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.title {
+    font-family: sans-serif;
+    font-style: italic;
+    color:rgb(16, 6, 161);
+}
+
+ul {
+    list-style: none;
+}

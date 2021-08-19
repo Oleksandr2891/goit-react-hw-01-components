@@ -1,0 +1,23 @@
+h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.colorbox {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: block;
+    margin: 20px auto;
+    background-color: white;
+    text-align: center;
+    width: 468px;
+}
+
+
+.title{
+    margin: auto;
+
+}

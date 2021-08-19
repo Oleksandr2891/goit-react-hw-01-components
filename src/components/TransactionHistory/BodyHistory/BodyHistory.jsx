@@ -1,12 +1,13 @@
+import s from './BodyHistory.module.css'
 import PropTypes from 'prop-types';
 
 const BodyHistory = ({ type, amount, currency }) => {
     return (
-        <tbody>
-            <tr>
-                <td>{type}</td>
-                <td>{amount}</td>
-                <td>{currency}</td>
+        <tbody className={s.body}>
+            <tr className={s.line}>
+                <td className={s.item}>{type}</td>
+                <td className={s.item}>{amount}</td>
+                <td className={s.item}>{currency}</td>
             </tr>
         </tbody>
     );

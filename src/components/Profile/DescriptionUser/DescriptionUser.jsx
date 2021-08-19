@@ -1,16 +1,17 @@
 import PropTypes from 'prop-types';
+import s from './DescriptionUser.module.css'
 
 const DescriptionUser = ({ name, tag, location, avatar }) => {
     return (
-        <div className="description">
+        <div className={s.wrapper}>
             <img
                 src={avatar}
                 alt="Аватар пользователя"
-                className="avatar"
+                className={s.image}
             />
-            <p className="name">{name}</p>
-            <p className="tag">@{tag}</p>
-            <p className="location">{location}</p>
+            <p className={s.name}>{name}</p>
+            <p className={s.tag}>@{tag}</p>
+            <p className={s.location}>{location}</p>
         </div>
     );
 }
