@@ -3,10 +3,11 @@ import StatsUser from "./StatsUser/StatsUser";
 import s from "./Profile.module.css"
 
 const Profile = ({ user }) => {
+    const { name, tag, location, avatar, stats } = user;
     return (
         <div className={s.card}>
-            <DescriptionUser name={user.name} tag={user.tag} location={user.location} avatar={user.avatar} />
-            <StatsUser stats={user.stats} />
+            <DescriptionUser name={name} tag={tag} location={location} avatar={avatar} />
+            <StatsUser stats={stats} />
         </div>
     )
 }

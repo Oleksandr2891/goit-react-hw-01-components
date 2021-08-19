@@ -1,13 +1,13 @@
 import React from 'react';
-import Friendlist from '../components/Friendlist/Friendlist';
+import Friendlist from './Friendlist/Friendlist';
 import friends from '../assest/friends.json';
 import user from '../assest/user.json';
-import Profile from '../components/Profile/Profile';
-import SectionTask from '../components/SectionTask/SectionTask';
+import Profile from './Profile/Profile';
+import SectionTask from './SectionTask/SectionTask';
 import statisticalData from '../assest/statistical-data.json';
-import Statistics from '../components/Statistics/Statistics';
+import Statistics from './Statistics/Statistics';
 import transactions from '../assest/transactions.json';
-import TransactionHistory from '../components/TransactionHistory/TransactionHistory';
+import TransactionHistory from './TransactionHistory/TransactionHistory';
 
 
 export default function App() {

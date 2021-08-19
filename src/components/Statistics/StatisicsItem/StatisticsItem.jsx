@@ -1,6 +1,6 @@
 import s from './StatisticsItem.module.css'
 import PropTypes from 'prop-types';
-import { red } from 'color-name';
+
 
 const StatisticsItem = ({ label, percentage }) => {
     const color = function makeRandomColor() {

@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import s from './Statistics.module.css'
 import StatisticsItem from "./StatisicsItem/StatisticsItem";
 
@@ -15,3 +16,7 @@ const Statistics = ({ stats, title }) => {
 }
 
 export default Statistics;
+
+StatisticsItem.propTypes = {
+    title: PropTypes.string,
+};
